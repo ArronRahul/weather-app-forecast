@@ -6,6 +6,9 @@
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  transition: background-color 0.3s ease;
+  color: white;
+
 }
 
 body {
@@ -14,6 +17,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
   
 }
 
@@ -36,13 +43,27 @@ body {
   border-radius: 10px;
   color: black;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5;
+  background-color: rgb(212, 122, 4);
+}
+
+.card{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 16px;
   text-align: center;
   line-height: 1.5;
-  background-color: antiquewhite;
+  background-color: rgba(5, 5, 3, 0.57);
 }
-
 

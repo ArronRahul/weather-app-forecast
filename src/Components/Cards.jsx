@@ -3,8 +3,9 @@ import '../App.css';
 
 const Cards = ({ forecast, location }) => {
   return (
+    <>
+    <h2>Weather Forecast for {location.name}, {location.country}</h2>
     <div className="weather-cards">
-      <h2>Weather Forecast for {location.name}, {location.country}</h2>
       {forecast.map((day) => (
         <div key={day.date} className="card">
           <h3>{day.date}</h3>
@@ -15,6 +16,7 @@ const Cards = ({ forecast, location }) => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 

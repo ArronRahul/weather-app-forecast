@@ -7,7 +7,8 @@ function App() {
   const [error, setError] = useState(null);
 
   // API key and endpoint
-  const apiKey = "ee3f98f0e98d4f11a4694015242509";
+  const apiKey = import.meta.env.VITE_WEATHER_API_KEY;
+
   const location = "india";
   const days = 4;
 
